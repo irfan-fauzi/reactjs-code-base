@@ -1,0 +1,587 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap");
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: #2acfcf;
+  color: #fff;
+  border: none;
+  border-radius: 19px;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  -webkit-transform: scale(0.88);
+          transform: scale(0.88);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: #fff solid 1px;
+}
+
+.bg-primary, .btn-primary {
+  background-color: #2acfcf;
+  color: #f4f4f4;
+}
+
+.bg-secondary, .btn-secondary {
+  background-color: #f46262;
+  color: #f4f4f4;
+}
+
+.bg-dark, .btn-dark {
+  background-color: #002240;
+  color: #f4f4f4;
+}
+
+.bg-light, .btn-light {
+  background-color: #f4f4f4;
+  color: #002240;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #f4f4f4;
+}
+
+.text-primary {
+  color: #2acfcf;
+}
+
+.text-secondary {
+  color: #f46262;
+}
+
+.text-dark {
+  color: #002240;
+}
+
+.text-light {
+  color: #f4f4f4;
+}
+
+.container {
+  overflow: auto;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.card {
+  color: #333;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 100%;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
+}
+
+.m-3 {
+  margin: 2rem;
+}
+
+.m-4 {
+  margin: 3rem;
+}
+
+.m-5 {
+  margin: 4rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 1.5rem 0;
+}
+
+.my-3 {
+  margin: 2rem 0;
+}
+
+.my-4 {
+  margin: 3rem 0;
+}
+
+.my-5 {
+  margin: 4rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 3rem;
+}
+
+.p-5 {
+  padding: 4rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 3rem 0;
+}
+
+.py-5 {
+  padding: 4rem 0;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.alert {
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: #5cb85c;
+  color: #f4f4f4;
+}
+
+.alert-warning {
+  background-color: yellow;
+}
+
+.alert-error {
+  background-color: #d9534f;
+  color: #f4f4f4;
+}
+
+header {
+  border: black solid 1px;
+}
+
+header .navbar {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .navbar .menus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .navbar .menus__sub-menu {
+  margin-left: 1rem;
+}
+
+header .navbar .flex .login {
+  margin-right: 2rem;
+}
+
+.hero {
+  text-align: center;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .hero-text-wrap h1 {
+  margin-top: 2.8rem;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.statistic {
+  text-align: center;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  padding: 2rem 0;
+}
+
+.statistic .form {
+  background-color: #3b3054;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  width: 95%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  position: relative;
+}
+
+.statistic .form::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://raw.githubusercontent.com/irfan-fauzi/Shortly-landing/6caa3eb177df56a4f17c60e6bfcddabe00030be0/images/bg-boost-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+.statistic .form .input {
+  position: relative;
+  height: 50px;
+  border: none;
+  z-index: 3;
+  padding: 1rem;
+}
+
+.statistic .form .btn {
+  position: relative;
+  z-index: 3;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  height: 50px;
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .statistic .form {
+    -ms-grid-columns: 3fr 1fr;
+        grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+  }
+  .statistic .form .btn {
+    margin-top: -1px;
+  }
+}
+
+.text-wrap {
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-wrap {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5rem;
+  margin-top: 2rem;
+}
+
+.card-wrap .card {
+  padding: 1.5rem;
+}
+
+.card-wrap .card h1 {
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-wrap .card p {
+  line-height: 2;
+  color: #9e9aa7;
+}
+
+.card-wrap .card .img-wrap {
+  border: solid black 1px;
+  background-color: black;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: -4rem;
+}
+
+.card-wrap .card .img-wrap img {
+  width: 50px;
+  height: 50px;
+}
+
+.footers-head {
+  text-align: center;
+  height: 270px;
+  border: black solid 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background-color: #3b3054;
+}
+
+.footers-head h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #f4f4f4;
+  z-index: 3;
+}
+
+.footers-head::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url("https://raw.githubusercontent.com/irfan-fauzi/Shortly-landing/6caa3eb177df56a4f17c60e6bfcddabe00030be0/images/bg-boost-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer {
+  background-color: #232127;
+  text-align: center;
+  padding: 2rem;
+}
+
+footer h1, footer h4, footer a {
+  color: #f4f4f4;
+}
+
+footer .grid {
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+footer .grid .footlink {
+  margin: 1rem 0;
+}
+
+footer .grid .footlink h4 {
+  margin: 1rem 0;
+}
+
+footer .grid .footlink a {
+  font-weight: 200;
+}
+
+footer .grid .footlink img {
+  margin: 0 0.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #3b3054;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, p, li {
+  color: #3b3054;
+}
+
+@media only screen and (min-width: 992px) {
+  .hero {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    height: 530px;
+  }
+  .hero img {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .hero .hero-text-wrap {
+    text-align: left;
+    padding-right: 2.5rem;
+  }
+  .hero .hero-text-wrap h1 {
+    font-size: 4rem;
+  }
+}
+/*# sourceMappingURL=Appsaya.css.map */

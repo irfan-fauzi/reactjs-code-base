@@ -1,0 +1,27 @@
+footer{
+  background-color: $veryDarkViolet;
+  text-align: center;
+  padding: 2rem;
+  h1,h4,a{
+    color: $lightColor;
+  }
+  .grid{
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    .footlink{
+     // border: white solid 1px;
+      margin: 1rem 0;
+      h4{
+        margin: 1rem 0;
+      }
+      a{
+        font-weight: 200;
+      }
+      img{
+        margin: 0 0.5rem;
+      }
+    }
+  }
+}

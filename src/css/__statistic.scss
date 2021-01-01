@@ -1,0 +1,56 @@
+.statistic{
+  text-align: center;
+  margin: 0 auto;
+  //border: solid black 1px;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2rem 0;
+  .form{
+    background-color: $primaryColor2;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    position: relative;
+    &::after{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: url("https://raw.githubusercontent.com/irfan-fauzi/Shortly-landing/6caa3eb177df56a4f17c60e6bfcddabe00030be0/images/bg-boost-mobile.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: 0;
+      top: 0;
+      left: 0;
+    }
+    .input{
+      position: relative;
+      height: 50px;
+      border: none;
+      z-index: 3;
+      padding: 1rem;
+    }
+    .btn{
+      position: relative;
+      z-index: 3;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+      height: 50px;
+     
+      font-size: 1.2rem;
+    }
+  }
+}
+@media only screen and (min-width: 992px){
+  .statistic{
+    .form{
+      grid-template-columns: 3fr 1fr;
+      gap: 1rem;
+      .btn{
+        margin-top: -1px;
+      }
+    }
+  }
+}
