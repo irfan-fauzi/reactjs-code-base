@@ -273,10 +273,6 @@
   color: #f4f4f4;
 }
 
-header {
-  border: black solid 1px;
-}
-
 header .navbar {
   height: 80px;
   display: -webkit-box;
